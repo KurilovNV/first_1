@@ -40,7 +40,8 @@ namespace first_1
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "first_1 v1"));
+                app.UseSwaggerUI(c =>c.SwaggerEndpoint("/swagger/v1/swagger.json", "first_1 v1")
+                );
             }
 
             app.UseRouting();
